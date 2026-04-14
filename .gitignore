@@ -16,8 +16,7 @@ reports/
 *.db
 *.db-journal
 
-# Model outputs (용량 과대 - HuggingFace Hub 권장)
-*.zip
+# Model outputs
 *.bin
 *.safetensors
 *.pt
