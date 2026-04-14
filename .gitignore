@@ -1,1 +1,34 @@
+# macOS
 .DS_Store
+
+# Data - raw (large, licensed - AI-Hub 재배포 금지)
+raw_data/
+
+# Data - processed (파일 크기 100MB 초과, GitHub 업로드 불가)
+data/processed/
+project/data/
+
+# Logs & reports
+*.log
+reports/
+
+# Database
+*.db
+*.db-journal
+
+# Model outputs (용량 과대 - HuggingFace Hub 권장)
+*.zip
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
