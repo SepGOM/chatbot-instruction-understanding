@@ -6,6 +6,7 @@ raw_data/
 
 # Data - processed (파일 크기 100MB 초과, GitHub 업로드 불가)
 data/processed/
+project/data/processed/
 
 # Logs & reports
 *.log
